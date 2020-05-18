@@ -114,7 +114,7 @@ export const messages = {
       {
         title: '🔑 No login required',
         description:
-          "Your users hate when you make them create new accounts on multiple websites. We've removed the friction, anyone can submit a new translation variant without a login.",
+          "Your users hate when you make them create new accounts on multiple websites. We've removed the friction, anyone can submit a new translation without having to login.",
       },
       {
         title: '👀 Powerful filters and search',
@@ -127,14 +127,14 @@ export const messages = {
           "Just two endpoints: upload and download translations. It's that simple!",
       },
       {
-        title: '📝 Comments built-in',
+        title: '📝 Built-in comments',
         description:
-          'Questions about the localization or having a few concerns? Leave a comment! And yes, no login required either.',
+          'Questions or concerns? Leave a comment! And yes, no login required either.',
       },
       {
         title: '✅ Admin panel',
         description:
-          'Moderate the content, select, edit and delete variants. Remove unnecessary comments — all in a simple to use UI.',
+          'Moderate the content, select, edit and delete translations. Remove unnecessary comments — all in a simple to use UI.',
       },
       {
         title: '⚡️ Filter by new',
