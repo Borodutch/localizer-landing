@@ -4,6 +4,7 @@ import router from './plugins/router'
 import { store } from './plugins/store'
 import { i18n } from './plugins/i18n'
 import vuetify from './plugins/vuetify'
+import './plugins/vue-window-size'
 
 Vue.config.productionTip = true
 
