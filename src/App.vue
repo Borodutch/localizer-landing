@@ -36,11 +36,18 @@ export default class App extends Vue {
   text-align: center;
   margin: 40px 0px;
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 800px) {
   .title-text {
-    font-size: 22px;
-    line-height: 26px;
-    margin: 20px 0px;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 30px 0px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .title-text {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 30px 0px;
   }
 }
 .theme--dark .title-text {
@@ -55,6 +62,12 @@ export default class App extends Vue {
   text-align: center;
   color: #28282c;
   margin: 40px 0px;
+}
+@media only screen and (max-width: 540px) {
+  .subtitle-text {
+    font-size: 30px;
+    margin: 30px 0px;
+  }
 }
 .theme--dark .subtitle-text {
   color: #e0e0e0;
@@ -137,6 +150,12 @@ export default class App extends Vue {
   text-align: center;
   color: #858a8f;
   margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .bottom-text {
+    font-size: 20px;
+    line-height: 34px;
+  }
 }
 a {
   text-decoration: none;

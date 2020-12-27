@@ -6,6 +6,14 @@
     v-img.left-wing(src='/img/left.png', max-width='30%', contain)
     v-img.right-wing(src='/img/right.png', max-width='30%', contain)
     v-img(src='/img/screenshot.png', max-width='75%')
+  .d-flex.justify-center.align-center(v-if='$vuetify.breakpoint.xsOnly')
+    v-btn.setup-button.my-8(
+      x-large,
+      text,
+      target='_blank',
+      href='https://blog.borodutch.com/how-to-setup-localizer-for-your-product/'
+    )
+      .setup-button-text {{ $t("home.setupButton") }}
   .d-flex.flex-column.justify-center.features.pb-8
     .subtitle-text {{ $t("home.features") }}
     .d-flex.flex-wrap.flex-row.justify-space-around.align-start
@@ -22,7 +30,7 @@
     img.mx-2(src='/img/heart.svg', width='50px')
     img.mr-1(src='/img/logo.svg')
     .subtitle-text ?
-  .d-flex.mx-2.flex-column
+  .d-flex.mx-4.flex-column
     .bottom-text(v-html='$t("home.todorant")')
     .bottom-text(v-html='$t("home.todorant2")')
     .bottom-text(v-html='$t("home.or")')

@@ -8,7 +8,7 @@ export const messages = {
       setupButton: 'Поднять у себя бесплатно',
       features: 'Фичи',
       todorant:
-        'Гляньте мой основной проект, для которого я и создал Локалайзер! Это Тудурант — умный менеджер задач, который заставляет примитивный мозг выполнять задачи! Досутпен на <a target="_blank"  href="https://apps.apple.com/us/app/todorant/id1482078243">iOS</a>, <a target="_blank"  href="https://play.google.com/store/apps/details?id=com.todorant">Андроиде</a> и <a target="_blank"  href="https://todorant.com/">в вебе</a>.',
+        'Гляньте мой основной проект, для которого я и создал Локалайзер! Это Тудурант — умный менеджер задач, который заставляет примитивный мозг выполнять задачи! Доступен на <a target="_blank"  href="https://apps.apple.com/us/app/todorant/id1482078243">iOS</a>, <a target="_blank"  href="https://play.google.com/store/apps/details?id=com.todorant">Андроиде</a> и <a target="_blank"  href="https://todorant.com/">в вебе</a>.',
       todorant2:
         'Я написал <a target="_blank"  href="https://vc.ru/life/83541-kak-u-menya-poluchilos-zapustit-7-produktov-za-god">статью</a> о том, как у меня получилось запустить 7 продуктов за 2019 год. Тудурант настолько эффективен, да!',
       or:
