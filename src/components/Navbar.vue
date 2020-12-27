@@ -1,9 +1,8 @@
 <template lang="pug">
 nav
-  v-app-bar.px-4(flat, :color='dark ? "#0D0D0D" : "white"')
+  v-app-bar(app, flat, :color='dark ? "#0D0D0D" : "white"')
     // Title
-    v-toolbar-title
-      img(src='/img/logo.svg')
+    img(src='/img/logo.svg')
     v-spacer
     // Language picker
     v-menu(offset-y)
@@ -27,7 +26,7 @@ nav
       target='_blank',
       href='https://blog.borodutch.com/how-to-setup-localizer-for-your-product/'
     )
-      .setup-button-text Setup now for free
+      .setup-button-text {{ $t("home.setupButton") }}
 </template>
 
 <script lang="ts">

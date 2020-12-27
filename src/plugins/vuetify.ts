@@ -2,18 +2,15 @@ import Vue from 'vue'
 import Vuetify, {
   VApp,
   VAppBar,
-  VToolbarTitle,
   VSpacer,
   VBtn,
-  VIcon,
   VMenu,
   VList,
   VListItem,
   VListItemTitle,
   VFlex,
-  VLayout,
-  VSnackbar,
   VMain,
+  VImg,
 } from 'vuetify/lib'
 import 'vuetify/dist/vuetify.min.css'
 
@@ -21,23 +18,30 @@ Vue.use(Vuetify, {
   components: {
     VApp,
     VAppBar,
-    VToolbarTitle,
     VSpacer,
     VBtn,
-    VIcon,
     VMenu,
     VList,
     VListItem,
     VListItemTitle,
     VFlex,
-    VLayout,
-    VSnackbar,
     VMain,
+    VImg,
   },
 })
 
 export default new Vuetify({
   icons: {
     iconfont: 'mdi',
+  },
+  theme: {
+    themes: {
+      dark: {
+        background: '#0D0D0D',
+      },
+      light: {
+        background: '#FFFFFF',
+      },
+    },
   },
 })
