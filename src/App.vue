@@ -142,7 +142,4 @@ a {
   text-decoration: none;
   color: #0176ff;
 }
-a:hover {
-  text-decoration: underline;
-}
 </style>
