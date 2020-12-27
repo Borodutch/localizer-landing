@@ -161,4 +161,31 @@ a {
   text-decoration: none;
   color: #0176ff;
 }
+.hand-container {
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  .hand-container {
+    min-height: 180px;
+  }
+}
+.hand-image {
+  position: absolute !important;
+  right: 0 !important;
+  bottom: -150px !important;
+  width: 300px;
+}
+@media only screen and (max-width: 800px) {
+  .hand-image {
+    width: 200px;
+    bottom: -100px !important;
+  }
+}
+.hand-image-xs {
+  position: absolute !important;
+  right: 0 !important;
+  bottom: -100px !important;
+  width: 100px;
+  height: 150px;
+}
 </style>

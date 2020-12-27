@@ -26,6 +26,16 @@
           .d-flex.flex-column
             .feature-title {{ feature.title }}
             .feature-subtitle(v-html='feature.description')
+  .d-flex.justify-center.align-center.hand-container
+    v-btn.setup-button.my-8(
+      x-large,
+      text,
+      target='_blank',
+      href='https://blog.borodutch.com/how-to-setup-localizer-for-your-product/'
+    )
+      .setup-button-text {{ $t("home.setupButton") }}
+    v-img.hand-image(src='/img/hand-1.png', v-if='$vuetify.breakpoint.smAndUp')
+    v-img.hand-image-xs(src='/img/hand-2.png', v-if='$vuetify.breakpoint.xs')
   .d-flex.flex-row.justify-center.align-center.mx-2
     img.mx-2(src='/img/heart.svg', width='50px')
     img.mr-1(src='/img/logo.svg')
