@@ -12,7 +12,7 @@
     "@types/node": "^14.14.16",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.1.0",
-    "vue": "^2.6.12",
+    "vue": "^3.0.0",
     "vue-class-component": "^7.2.6",
     "vue-i18n": "^8.22.2",
     "vue-property-decorator": "^9.1.2",
